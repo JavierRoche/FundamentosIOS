@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "nom": "Fernando Galencio",
+        "mote": "Maligno",
+        "edad": 44,
+        "lat": "Norte",
+        "imag": "Maligno",
+        "desc": "Propietario del estanco. Persona muy querida en el pueblo por su simpatia y su empatia."
+    },
+    {
+        "id": 2,
+        "nom": "Carlos Izquierdo",
+        "mote": "Orejas",
+        "edad": 48,
+        "lat": "Sur",
+        "imag": "Orejas",
+        "desc": "Dueño de la pizzeria. Se enrolla muy bien con nosotros para alternar."
+    },
+    {
+        "id": 3,
+        "nom": "Arturo Tizilla",
+        "mote": "El Profe",
+        "edad": 56,
+        "lat": "Norte",
+        "imag": "Arturo",
+        "desc": "Profesor de enseñanza primaria muy querido por los niños mas traviesos."
+    },
+    {
+        "id": 4,
+        "nom": "Nuria Fernandez",
+        "mote": "MQMF o MILF",
+        "edad": 46,
+        "lat": "Sur",
+        "imag": "Nuria",
+        "desc": "Medico del pueblo que nos cura cuando estamos enfermitos o nos lo hacemos."
+    },
+    {
+        "id": 5,
+        "nom": "Jose Luis Potato",
+        "mote": "Patatero",
+        "edad": 49,
+        "lat": "Norte",
+        "imag": "Patatero",
+        "desc": "Dueño de la fabrica de patatas. Muy simpatico y gracioso"
+    },
+    {
+        "id": 6,
+        "nom": "Amanda Ojitos",
+        "mote": "Maciza",
+        "edad": 35,
+        "lat": "Sur",
+        "imag": "Amanda",
+        "desc": "Es la chica que atiende en la recepcion del Centro Cultural del pueblo."
+    },
+    {
+        "id": 7,
+        "nom": "Teresa Contagios",
+        "mote": "Ni con un palo",
+        "edad": 51,
+        "lat": "Norte",
+        "imag": "Teresa",
+        "desc": "Enfermera de la residencia Gerontos. Trata con cariño a los residentes."
+    },
+    {
+        "id": 8,
+        "nom": "Daniel Sanchez",
+        "mote": "Alcalde",
+        "edad": 44,
+        "lat": "Sur",
+        "imag": "Alcalde",
+        "desc": "Alcalde del pueblo que despierta simpatias y antipatias por igual."
+    },
+    {
+        "id": 9,
+        "nom": "Luanh Who",
+        "mote": "Chinorris",
+        "edad": 30,
+        "lat": "Norte",
+        "imag": "Luanh",
+        "desc": "El tipico chinorris que te sonrie a todo porque no te entiende ni una palabra."
+    },
+    {
+        "id": 10,
+        "nom": "Mariano Pulpo",
+        "mote": "Marianico",
+        "edad": 44,
+        "lat": "Sur",
+        "imag": "Mariano",
+        "desc": "Dueño de la pulperia del pueblo. Muy simpatico y servicial en su trabajo."
+    },
+    {
+        "id": 11,
+        "nom": "Yoli Pool",
+        "mote": "La Yoli",
+        "edad": 54,
+        "lat": "Norte",
+        "imag": "Yoli",
+        "desc": "Persona que te pide el carnet de la piscina y te alquila pistas."
+    },
+    {
+        "id": 12,
+        "nom": "Maria Vinitos",
+        "mote": "Vinitos",
+        "edad": 47,
+        "lat": "Sur",
+        "imag": "Vinitos",
+        "desc": "Maria es la bodeguera, y junto con su marido llevan el negocio."
+    }
+]

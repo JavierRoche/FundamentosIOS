@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181C86A7240916BE0068D691 /* PersonaTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C86A6240916BE0068D691 /* PersonaTVCell.swift */; };
+		181C86A9240916D90068D691 /* PersonaTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181C86A8240916D90068D691 /* PersonaTVCell.xib */; };
+		181C86AB24091A140068D691 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C86AA24091A140068D691 /* Persona.swift */; };
+		181C86AD24091F2B0068D691 /* personas.json in Resources */ = {isa = PBXBuildFile; fileRef = 181C86AC24091F2B0068D691 /* personas.json */; };
+		1826CF342407B62800E9EC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF332407B62800E9EC31 /* AppDelegate.swift */; };
+		1826CF362407B62800E9EC31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF352407B62800E9EC31 /* SceneDelegate.swift */; };
+		1826CF3D2407B63800E9EC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF3C2407B63800E9EC31 /* Assets.xcassets */; };
+		1826CF402407B63800E9EC31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF3E2407B63800E9EC31 /* LaunchScreen.storyboard */; };
+		1826CF4B2407B63800E9EC31 /* AppVenturadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF4A2407B63800E9EC31 /* AppVenturadaTests.swift */; };
+		1826CF5F2407D1BF00E9EC31 /* SitioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF5D2407D1BF00E9EC31 /* SitioVC.swift */; };
+		1826CF602407D1BF00E9EC31 /* SitioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF5E2407D1BF00E9EC31 /* SitioVC.xib */; };
+		1826CF632407D21D00E9EC31 /* PersonaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF612407D21D00E9EC31 /* PersonaVC.swift */; };
+		1826CF642407D21D00E9EC31 /* PersonaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF622407D21D00E9EC31 /* PersonaVC.xib */; };
+		1826CF682407D28600E9EC31 /* FavoritoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF662407D28600E9EC31 /* FavoritoVC.swift */; };
+		1826CF692407D28600E9EC31 /* FavoritoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF672407D28600E9EC31 /* FavoritoVC.xib */; };
+		1826CF6C2407D2A000E9EC31 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF6A2407D2A000E9EC31 /* SettingsVC.swift */; };
+		1826CF6D2407D2A000E9EC31 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF6B2407D2A000E9EC31 /* SettingsVC.xib */; };
+		1826CF6F2407DAEA00E9EC31 /* Sitio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF6E2407DAEA00E9EC31 /* Sitio.swift */; };
+		1826CF7A24080E3A00E9EC31 /* SitioTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF7924080E3A00E9EC31 /* SitioTVCell.swift */; };
+		1826CF7C24080E5100E9EC31 /* SitioTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF7B24080E5100E9EC31 /* SitioTVCell.xib */; };
+		1826CF7F2408381600E9EC31 /* SitioVCDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF7D2408381600E9EC31 /* SitioVCDetalle.swift */; };
+		1826CF802408381600E9EC31 /* SitioVCDetalle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF7E2408381600E9EC31 /* SitioVCDetalle.xib */; };
+		1826CF822408441B00E9EC31 /* SitioVCDetalleTexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF812408441B00E9EC31 /* SitioVCDetalleTexto.swift */; };
+		1826CF842408443100E9EC31 /* SitioVCDetalleTexto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF832408443100E9EC31 /* SitioVCDetalleTexto.xib */; };
+		1826CF862408444B00E9EC31 /* SitioVCDetalleImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF852408444B00E9EC31 /* SitioVCDetalleImagen.swift */; };
+		1826CF882408447B00E9EC31 /* SitioVCDetalleImagen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF872408447B00E9EC31 /* SitioVCDetalleImagen.xib */; };
+		1826CF8A24087A0500E9EC31 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826CF8924087A0500E9EC31 /* DataController.swift */; };
+		1826CF8C24087A2900E9EC31 /* zona_norte.json in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF8B24087A2900E9EC31 /* zona_norte.json */; };
+		1826CF8E24087A3800E9EC31 /* zona_sur.json in Resources */ = {isa = PBXBuildFile; fileRef = 1826CF8D24087A3800E9EC31 /* zona_sur.json */; };
+		1833FD57240A5EF80097F74D /* PersonaVCDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833FD56240A5EF80097F74D /* PersonaVCDetalle.swift */; };
+		1833FD59240A5F200097F74D /* PersonaVCDetalle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833FD58240A5F200097F74D /* PersonaVCDetalle.xib */; };
+		1833FD5B240A65E90097F74D /* PersonaVCDetalleTexto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833FD5A240A65E90097F74D /* PersonaVCDetalleTexto.swift */; };
+		1833FD5D240A65F10097F74D /* PersonaVCDetalleTexto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833FD5C240A65F10097F74D /* PersonaVCDetalleTexto.xib */; };
+		1833FD5F240A660C0097F74D /* PersonaVCDetalleImagen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1833FD5E240A660C0097F74D /* PersonaVCDetalleImagen.swift */; };
+		1833FD61240A661A0097F74D /* PersonaVCDetalleImagen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833FD60240A661A0097F74D /* PersonaVCDetalleImagen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1826CF472407B63800E9EC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1826CF282407B62800E9EC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1826CF2F2407B62800E9EC31;
+			remoteInfo = AppVenturada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181C86A6240916BE0068D691 /* PersonaTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTVCell.swift; sourceTree = "<group>"; };
+		181C86A8240916D90068D691 /* PersonaTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonaTVCell.xib; sourceTree = "<group>"; };
+		181C86AA24091A140068D691 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		181C86AC24091F2B0068D691 /* personas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = personas.json; path = AppVenturada/Jsons/personas.json; sourceTree = SOURCE_ROOT; };
+		1826CF302407B62800E9EC31 /* AppVenturada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppVenturada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1826CF332407B62800E9EC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1826CF352407B62800E9EC31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1826CF3C2407B63800E9EC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1826CF3F2407B63800E9EC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1826CF412407B63800E9EC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1826CF462407B63800E9EC31 /* AppVenturadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppVenturadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1826CF4A2407B63800E9EC31 /* AppVenturadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVenturadaTests.swift; sourceTree = "<group>"; };
+		1826CF4C2407B63800E9EC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1826CF5D2407D1BF00E9EC31 /* SitioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitioVC.swift; sourceTree = "<group>"; };
+		1826CF5E2407D1BF00E9EC31 /* SitioVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SitioVC.xib; sourceTree = "<group>"; };
+		1826CF612407D21D00E9EC31 /* PersonaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaVC.swift; sourceTree = "<group>"; };
+		1826CF622407D21D00E9EC31 /* PersonaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonaVC.xib; sourceTree = "<group>"; };
+		1826CF662407D28600E9EC31 /* FavoritoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritoVC.swift; sourceTree = "<group>"; };
+		1826CF672407D28600E9EC31 /* FavoritoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritoVC.xib; sourceTree = "<group>"; };
+		1826CF6A2407D2A000E9EC31 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		1826CF6B2407D2A000E9EC31 /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		1826CF6E2407DAEA00E9EC31 /* Sitio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sitio.swift; sourceTree = "<group>"; };
+		1826CF7924080E3A00E9EC31 /* SitioTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitioTVCell.swift; sourceTree = "<group>"; };
+		1826CF7B24080E5100E9EC31 /* SitioTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SitioTVCell.xib; sourceTree = "<group>"; };
+		1826CF7D2408381600E9EC31 /* SitioVCDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitioVCDetalle.swift; sourceTree = "<group>"; };
+		1826CF7E2408381600E9EC31 /* SitioVCDetalle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SitioVCDetalle.xib; sourceTree = "<group>"; };
+		1826CF812408441B00E9EC31 /* SitioVCDetalleTexto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitioVCDetalleTexto.swift; sourceTree = "<group>"; };
+		1826CF832408443100E9EC31 /* SitioVCDetalleTexto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SitioVCDetalleTexto.xib; sourceTree = "<group>"; };
+		1826CF852408444B00E9EC31 /* SitioVCDetalleImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitioVCDetalleImagen.swift; sourceTree = "<group>"; };
+		1826CF872408447B00E9EC31 /* SitioVCDetalleImagen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SitioVCDetalleImagen.xib; sourceTree = "<group>"; };
+		1826CF8924087A0500E9EC31 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		1826CF8B24087A2900E9EC31 /* zona_norte.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = zona_norte.json; path = AppVenturada/Jsons/zona_norte.json; sourceTree = SOURCE_ROOT; };
+		1826CF8D24087A3800E9EC31 /* zona_sur.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = zona_sur.json; path = AppVenturada/Jsons/zona_sur.json; sourceTree = SOURCE_ROOT; };
+		1833FD56240A5EF80097F74D /* PersonaVCDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaVCDetalle.swift; sourceTree = "<group>"; };
+		1833FD58240A5F200097F74D /* PersonaVCDetalle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonaVCDetalle.xib; sourceTree = "<group>"; };
+		1833FD5A240A65E90097F74D /* PersonaVCDetalleTexto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaVCDetalleTexto.swift; sourceTree = "<group>"; };
+		1833FD5C240A65F10097F74D /* PersonaVCDetalleTexto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonaVCDetalleTexto.xib; sourceTree = "<group>"; };
+		1833FD5E240A660C0097F74D /* PersonaVCDetalleImagen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaVCDetalleImagen.swift; sourceTree = "<group>"; };
+		1833FD60240A661A0097F74D /* PersonaVCDetalleImagen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonaVCDetalleImagen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1826CF2D2407B62800E9EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1826CF432407B63800E9EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1826CF272407B62800E9EC31 = {
+			isa = PBXGroup;
+			children = (
+				1826CF322407B62800E9EC31 /* AppVenturada */,
+				1826CF492407B63800E9EC31 /* AppVenturadaTests */,
+				1826CF312407B62800E9EC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1826CF312407B62800E9EC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF302407B62800E9EC31 /* AppVenturada.app */,
+				1826CF462407B63800E9EC31 /* AppVenturadaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1826CF322407B62800E9EC31 /* AppVenturada */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF332407B62800E9EC31 /* AppDelegate.swift */,
+				1826CF352407B62800E9EC31 /* SceneDelegate.swift */,
+				1826CF552407D05D00E9EC31 /* Modelos */,
+				1826CF562407D07500E9EC31 /* Sitio */,
+				1826CF572407D09400E9EC31 /* Persona */,
+				1826CF652407D25E00E9EC31 /* Favorito */,
+				1826CF582407D0BF00E9EC31 /* Settings */,
+				1826CF702407E14A00E9EC31 /* Data */,
+				1826CF3C2407B63800E9EC31 /* Assets.xcassets */,
+				1826CF3E2407B63800E9EC31 /* LaunchScreen.storyboard */,
+				1826CF412407B63800E9EC31 /* Info.plist */,
+			);
+			path = AppVenturada;
+			sourceTree = "<group>";
+		};
+		1826CF492407B63800E9EC31 /* AppVenturadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF4A2407B63800E9EC31 /* AppVenturadaTests.swift */,
+				1826CF4C2407B63800E9EC31 /* Info.plist */,
+			);
+			path = AppVenturadaTests;
+			sourceTree = "<group>";
+		};
+		1826CF552407D05D00E9EC31 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF6E2407DAEA00E9EC31 /* Sitio.swift */,
+				181C86AA24091A140068D691 /* Persona.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		1826CF562407D07500E9EC31 /* Sitio */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF5D2407D1BF00E9EC31 /* SitioVC.swift */,
+				1826CF5E2407D1BF00E9EC31 /* SitioVC.xib */,
+				1826CF7924080E3A00E9EC31 /* SitioTVCell.swift */,
+				1826CF7B24080E5100E9EC31 /* SitioTVCell.xib */,
+				1826CF7D2408381600E9EC31 /* SitioVCDetalle.swift */,
+				1826CF7E2408381600E9EC31 /* SitioVCDetalle.xib */,
+				1826CF812408441B00E9EC31 /* SitioVCDetalleTexto.swift */,
+				1826CF832408443100E9EC31 /* SitioVCDetalleTexto.xib */,
+				1826CF852408444B00E9EC31 /* SitioVCDetalleImagen.swift */,
+				1826CF872408447B00E9EC31 /* SitioVCDetalleImagen.xib */,
+			);
+			path = Sitio;
+			sourceTree = "<group>";
+		};
+		1826CF572407D09400E9EC31 /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF612407D21D00E9EC31 /* PersonaVC.swift */,
+				1826CF622407D21D00E9EC31 /* PersonaVC.xib */,
+				181C86A6240916BE0068D691 /* PersonaTVCell.swift */,
+				181C86A8240916D90068D691 /* PersonaTVCell.xib */,
+				1833FD56240A5EF80097F74D /* PersonaVCDetalle.swift */,
+				1833FD58240A5F200097F74D /* PersonaVCDetalle.xib */,
+				1833FD5A240A65E90097F74D /* PersonaVCDetalleTexto.swift */,
+				1833FD5C240A65F10097F74D /* PersonaVCDetalleTexto.xib */,
+				1833FD5E240A660C0097F74D /* PersonaVCDetalleImagen.swift */,
+				1833FD60240A661A0097F74D /* PersonaVCDetalleImagen.xib */,
+			);
+			path = Persona;
+			sourceTree = "<group>";
+		};
+		1826CF582407D0BF00E9EC31 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF6A2407D2A000E9EC31 /* SettingsVC.swift */,
+				1826CF6B2407D2A000E9EC31 /* SettingsVC.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1826CF652407D25E00E9EC31 /* Favorito */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF662407D28600E9EC31 /* FavoritoVC.swift */,
+				1826CF672407D28600E9EC31 /* FavoritoVC.xib */,
+			);
+			path = Favorito;
+			sourceTree = "<group>";
+		};
+		1826CF702407E14A00E9EC31 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1826CF8924087A0500E9EC31 /* DataController.swift */,
+				181C86AC24091F2B0068D691 /* personas.json */,
+				1826CF8B24087A2900E9EC31 /* zona_norte.json */,
+				1826CF8D24087A3800E9EC31 /* zona_sur.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1826CF2F2407B62800E9EC31 /* AppVenturada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1826CF4F2407B63800E9EC31 /* Build configuration list for PBXNativeTarget "AppVenturada" */;
+			buildPhases = (
+				1826CF2C2407B62800E9EC31 /* Sources */,
+				1826CF2D2407B62800E9EC31 /* Frameworks */,
+				1826CF2E2407B62800E9EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppVenturada;
+			productName = AppVenturada;
+			productReference = 1826CF302407B62800E9EC31 /* AppVenturada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1826CF452407B63800E9EC31 /* AppVenturadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1826CF522407B63800E9EC31 /* Build configuration list for PBXNativeTarget "AppVenturadaTests" */;
+			buildPhases = (
+				1826CF422407B63800E9EC31 /* Sources */,
+				1826CF432407B63800E9EC31 /* Frameworks */,
+				1826CF442407B63800E9EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1826CF482407B63800E9EC31 /* PBXTargetDependency */,
+			);
+			name = AppVenturadaTests;
+			productName = AppVenturadaTests;
+			productReference = 1826CF462407B63800E9EC31 /* AppVenturadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1826CF282407B62800E9EC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Javier Roche";
+				TargetAttributes = {
+					1826CF2F2407B62800E9EC31 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1826CF452407B63800E9EC31 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1826CF2F2407B62800E9EC31;
+					};
+				};
+			};
+			buildConfigurationList = 1826CF2B2407B62800E9EC31 /* Build configuration list for PBXProject "AppVenturada" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1826CF272407B62800E9EC31;
+			productRefGroup = 1826CF312407B62800E9EC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1826CF2F2407B62800E9EC31 /* AppVenturada */,
+				1826CF452407B63800E9EC31 /* AppVenturadaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1826CF2E2407B62800E9EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1826CF8C24087A2900E9EC31 /* zona_norte.json in Resources */,
+				1826CF7C24080E5100E9EC31 /* SitioTVCell.xib in Resources */,
+				181C86AD24091F2B0068D691 /* personas.json in Resources */,
+				181C86A9240916D90068D691 /* PersonaTVCell.xib in Resources */,
+				1826CF402407B63800E9EC31 /* LaunchScreen.storyboard in Resources */,
+				1826CF882408447B00E9EC31 /* SitioVCDetalleImagen.xib in Resources */,
+				1826CF842408443100E9EC31 /* SitioVCDetalleTexto.xib in Resources */,
+				1826CF602407D1BF00E9EC31 /* SitioVC.xib in Resources */,
+				1826CF8E24087A3800E9EC31 /* zona_sur.json in Resources */,
+				1826CF3D2407B63800E9EC31 /* Assets.xcassets in Resources */,
+				1833FD61240A661A0097F74D /* PersonaVCDetalleImagen.xib in Resources */,
+				1833FD5D240A65F10097F74D /* PersonaVCDetalleTexto.xib in Resources */,
+				1826CF6D2407D2A000E9EC31 /* SettingsVC.xib in Resources */,
+				1833FD59240A5F200097F74D /* PersonaVCDetalle.xib in Resources */,
+				1826CF642407D21D00E9EC31 /* PersonaVC.xib in Resources */,
+				1826CF692407D28600E9EC31 /* FavoritoVC.xib in Resources */,
+				1826CF802408381600E9EC31 /* SitioVCDetalle.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1826CF442407B63800E9EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1826CF2C2407B62800E9EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C86A7240916BE0068D691 /* PersonaTVCell.swift in Sources */,
+				1826CF342407B62800E9EC31 /* AppDelegate.swift in Sources */,
+				1826CF8A24087A0500E9EC31 /* DataController.swift in Sources */,
+				1826CF5F2407D1BF00E9EC31 /* SitioVC.swift in Sources */,
+				1833FD5F240A660C0097F74D /* PersonaVCDetalleImagen.swift in Sources */,
+				1826CF7F2408381600E9EC31 /* SitioVCDetalle.swift in Sources */,
+				1826CF682407D28600E9EC31 /* FavoritoVC.swift in Sources */,
+				1833FD5B240A65E90097F74D /* PersonaVCDetalleTexto.swift in Sources */,
+				181C86AB24091A140068D691 /* Persona.swift in Sources */,
+				1833FD57240A5EF80097F74D /* PersonaVCDetalle.swift in Sources */,
+				1826CF822408441B00E9EC31 /* SitioVCDetalleTexto.swift in Sources */,
+				1826CF862408444B00E9EC31 /* SitioVCDetalleImagen.swift in Sources */,
+				1826CF362407B62800E9EC31 /* SceneDelegate.swift in Sources */,
+				1826CF632407D21D00E9EC31 /* PersonaVC.swift in Sources */,
+				1826CF6C2407D2A000E9EC31 /* SettingsVC.swift in Sources */,
+				1826CF7A24080E3A00E9EC31 /* SitioTVCell.swift in Sources */,
+				1826CF6F2407DAEA00E9EC31 /* Sitio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1826CF422407B63800E9EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1826CF4B2407B63800E9EC31 /* AppVenturadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1826CF482407B63800E9EC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1826CF2F2407B62800E9EC31 /* AppVenturada */;
+			targetProxy = 1826CF472407B63800E9EC31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1826CF3E2407B63800E9EC31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1826CF3F2407B63800E9EC31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1826CF4D2407B63800E9EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1826CF4E2407B63800E9EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1826CF502407B63800E9EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppVenturada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Roche.AppVenturada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1826CF512407B63800E9EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppVenturada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Roche.AppVenturada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1826CF532407B63800E9EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppVenturadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Roche.AppVenturadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppVenturada.app/AppVenturada";
+			};
+			name = Debug;
+		};
+		1826CF542407B63800E9EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AppVenturadaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Roche.AppVenturadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppVenturada.app/AppVenturada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1826CF2B2407B62800E9EC31 /* Build configuration list for PBXProject "AppVenturada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1826CF4D2407B63800E9EC31 /* Debug */,
+				1826CF4E2407B63800E9EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1826CF4F2407B63800E9EC31 /* Build configuration list for PBXNativeTarget "AppVenturada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1826CF502407B63800E9EC31 /* Debug */,
+				1826CF512407B63800E9EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1826CF522407B63800E9EC31 /* Build configuration list for PBXNativeTarget "AppVenturadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1826CF532407B63800E9EC31 /* Debug */,
+				1826CF542407B63800E9EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1826CF282407B62800E9EC31 /* Project object */;
+}

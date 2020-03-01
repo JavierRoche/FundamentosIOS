@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "lat": "Sur",
+        "nom": "Ventura&Jones",
+        "dir": "Alamos 4",
+        "imag": "Ventura",
+        "desc" : "En el Ventura&Jones podemos tomar algo o cenar unas pizzas con los amigos ."
+    },
+    {
+        "id": 2,
+        "lat": "Sur",
+        "nom": "Ayuntamiento",
+        "dir": "Plaza del Ayuntamiento 2",
+        "imag": "Ayuntamiento",
+        "desc" : "En el Ayuntamiento podemos realizar las gestiones tipicas con los funcionarios."
+    },
+    {
+        "id": 3,
+        "lat": "Sur",
+        "nom": "Centro de Salud",
+        "dir": "Plaza del rasillo 2",
+        "imag": "Medico",
+        "desc" : "Al centro de salud acudimos cuando necesitamos ver a los medicos ."
+    },
+    {
+        "id": 4,
+        "lat": "Sur",
+        "nom": "Pulperia Ribeiriño",
+        "dir": "Parador 2",
+        "imag": "Pulperia",
+        "desc" : "En la pulperia podemos tomar unas raciones y unas cervezas con los amigos."
+    },
+    {
+        "id": 5,
+        "lat": "Sur",
+        "nom": "Casa de la Cultura",
+        "dir": "Alamos 4",
+        "imag": "Cultura",
+        "desc" : "En la Casa de la Cultura se realizan actuvidades para todas las edades."
+    },
+    {
+        "id": 6,
+        "lat": "Sur",
+        "nom": "Bodega Bardela",
+        "dir": "De las Eras 1",
+        "imag": "Bodega",
+        "desc" : "En la bodega se hace el vino del pueblo que tan poquico nos gusta."
+    }
+]
+

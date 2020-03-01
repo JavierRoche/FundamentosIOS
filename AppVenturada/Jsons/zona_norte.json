@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "lat": "Norte",
+        "nom": "Estanco",
+        "dir": "Canencia 6",
+        "imag": "Estanco",
+        "desc": "En el estanco podemos encontrar tabacos y recargar el movil."
+    },
+    {
+        "id": 2,
+        "lat": "Norte",
+        "nom": "Residencia Gerontos",
+        "dir": "Avenida de Madrid 1",
+        "imag": "Residencia",
+        "desc": "En la residencia podemos encontrar a nuestros mayores bien cuidados."
+    },
+    {
+        "id": 3,
+        "lat": "Norte",
+        "nom": "Colegio",
+        "dir": "Placer del Ver S/N",
+        "imag": "Colegio",
+        "desc": "En el colegio tenemos a nuestros pequeños preparandose para el futuro."
+    },
+    {
+        "id": 4,
+        "lat": "Norte",
+        "nom": "Chino",
+        "dir": "Avenida de Madrid 20",
+        "imag": "Chino",
+        "desc": "En el chino tenemos las tipicas cosas que venden los chinorris."
+    },
+    {
+        "id": 5,
+        "lat": "Norte",
+        "nom": "Fabrica de patatas",
+        "dir": "Agueda 13",
+        "imag": "Fabrica",
+        "desc": "En la fabrica de las mejores patatas artesanas de todo Madrid."
+    },
+    {
+        "id": 6,
+        "lat": "Norte",
+        "nom": "Polidep. Municipal",
+        "dir": "San Isidro S/N",
+        "imag": "Polideportivo",
+        "desc": "En el polideportivo estan la piscina municipal y las pistas de padel."
+    }
+]
